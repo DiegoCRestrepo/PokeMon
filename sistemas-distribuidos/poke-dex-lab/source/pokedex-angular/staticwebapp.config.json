@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "headers": {
+        "Content-Security-Policy": "default-src 'unsafe-inline' 'unsafe-eval' data: blob:;",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Permissions-Policy": "geolocation=, microphone=, camera=*"
+      }
+    }
+  ]
+}
