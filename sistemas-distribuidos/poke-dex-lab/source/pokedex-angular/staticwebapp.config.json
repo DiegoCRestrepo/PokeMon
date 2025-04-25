@@ -1,0 +1,7 @@
+{
+  "globalHeaders": {
+    "Content-Security-Policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;",
+    "X-Frame-Options": "ALLOWALL",
+    "Permissions-Policy": "geolocation=*, camera=*, microphone=*"
+  }
+}
