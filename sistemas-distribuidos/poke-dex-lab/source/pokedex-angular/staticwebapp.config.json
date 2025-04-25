@@ -1,6 +1,6 @@
 {
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; object-src 'none'; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' https:; connect-src *; frame-src *;",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' https:; object-src 'none'; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' https:; connect-src *; frame-src *;"
     "Permissions-Policy": "geolocation=*, microphone=*, camera=*",
     "X-Frame-Options": "ALLOWALL",
     "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
